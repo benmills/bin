@@ -1,15 +1,16 @@
 #! /bin/sh
 
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+
 brew install git
-brew install curl
 brew install coreutils
 brew install bash bash-completion
-brew install z
 brew install unrar
 brew install mpop msmtp
-brew install mutt
+# brew install mutt
 brew install rlwrap elinks tmux
 brew install dict surfraw bc
+brew install z
 
 # brew install ffmpeg
 brew tap pigoz/mplayer2
@@ -43,5 +44,5 @@ open http://www.libreoffice.org/download/?type=mac-x86
 # owl install grabc ppsei darcs-bin
 # owl install ttf-anonymous-pro ttf-dejavu ttf-droid ttf-envy-code-r ttf-freefont ttf-junicode ttf-liberation ttf-linux-libertine ttf-ms-fonts
 
-git clone git://github.com/baskerville/dotfiles.git .dotfiles
-git clone git://github.com/baskerville/bin.git .bindir
+git clone -b macosx git://github.com/baskerville/dotfiles.git .dotfiles
+git clone -b macosx git://github.com/baskerville/bin.git .bin
