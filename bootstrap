@@ -4,28 +4,29 @@ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
 brew install git
 brew install coreutils
-brew install bash bash-completion
-brew install unrar
+brew install bash bash-completion z
 brew install mpop msmtp
 # brew install mutt
 brew install slrn newsbeuter
-brew install rlwrap elinks tmux
+brew install rlwrap elinks # tmux
 brew install dict surfraw bc
-brew install z
 
 # brew install ffmpeg
 brew tap pigoz/mplayer2
 brew install --HEAD pigoz/mplayer2/mplayer2
 
+brew install imagemagick media-info gifsicle
+brew install aria2 mldonkey
 brew install mpd mpc
-brew install gphoto2
+brew install dcraw gphoto2
 brew install cdrkit
 brew install cuetools shntool
-brew install mac libplist
-brew install p7zip id3v2
+brew install flac mac id3v2
+brew install unrar p7zip
+brew install catdoc libplist libicns
 brew install detox duff dhex
 brew install fortune figlet cowsay
-brew install youtube-dl
+brew install youtube-dl nzbget
 
 sudo easy_install-3.2 pip
 sudo pip install colormath
@@ -88,11 +89,6 @@ cd "$HOME" && ln -s "src/projects/" "projects"
 cd "$HOME/.audacity-data/Theme" && ln -s "Gnome_ImageCache.png" "ImageCache.png"
 cd "$HOME/.bin" && ln -s "/usr/bin/perl-rename" "pmv"
 cd "$HOME/.bin" && ln -s "audio_player" "ap"
-cd "$HOME/.bin" && ln -s "bspwm_colors-light" "bspwm_colors"
-cd "$HOME/.bin" && ln -s "dbatt_colors-light" "dbatt_colors"
-cd "$HOME/.bin" && ln -s "dbright_colors-light" "dbright_colors"
-cd "$HOME/.bin" && ln -s "dmenu_colors-light" "dmenu_colors"
-cd "$HOME/.bin" && ln -s "dnotify_colors-light" "dnotify_colors"
 cd "$HOME/.bin" && ln -s "document_reader" "dr"
 cd "$HOME/.bin" && ln -s "dvol_colors-light" "dvol_colors"
 cd "$HOME/.bin" && ln -s "editor" "e"
