@@ -1,48 +1,47 @@
 #! /bin/bash
 
-ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+# ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
-brew install git
-brew install coreutils
+brew install git dash coreutils
 brew install bash bash-completion z
-brew install mpop msmtp
+# brew install mpop msmtp
 # brew install mutt
-brew install slrn newsbeuter
-brew install rlwrap elinks # tmux
-brew install dict surfraw bc
+# brew install slrn newsbeuter
+# brew install rlwrap elinks # tmux
+# brew install dict surfraw bc
 
 # brew install ffmpeg
-brew tap pigoz/mplayer2
-brew install --HEAD pigoz/mplayer2/mplayer2
+# brew tap pigoz/mplayer2
+# brew install --HEAD pigoz/mplayer2/mplayer2
 
-brew install imagemagick media-info gifsicle
-brew install aria2 mldonkey
-brew install mpd mpc
-brew install dcraw gphoto2
-brew install cdrkit
-brew install cuetools shntool
-brew install flac mac id3v2
-brew install unrar p7zip
-brew install catdoc libplist libicns
-brew install detox duff dhex
-brew install fortune figlet cowsay
-brew install youtube-dl nzbget
+# brew install imagemagick media-info gifsicle
+# brew install aria2 mldonkey
+# brew install mpd mpc
+# brew install dcraw gphoto2
+# brew install cdrkit
+# brew install cuetools shntool
+# brew install flac mac id3v2
+# brew install unrar p7zip
+# brew install catdoc libplist libicns
+# brew install detox duff dhex gcal
+# brew install fortune figlet cowsay
+# brew install youtube-dl nzbget
 
-sudo easy_install-3.2 pip
-sudo pip install colormath
-sudo pip install PyYAML
-sudo pip install Jinja2
+# sudo easy_install-3.2 pip
+# sudo pip install colormath
+# sudo pip install PyYAML
+# sudo pip install Jinja2
 
 cd "$HOME"
 
 # wget ftp://ftp.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.2-dmg-2.dmg
 # wget http://audacity.googlecode.com/files/audacity-macosx-ub-2.0.3.dmg
-# wget http://downloads.sourceforge.net/jumpcut/Jumpcut_0.63.tgz
-# wget http://xee.googlecode.com/files/Xee2.2.zip
-# wget http://theunarchiver.googlecode.com/files/TheUnarchiver3.6.1.zip
-open http://www.libreoffice.org/download/?type=mac-x86
-
-# owl install paps-bskv compface-bskv
+wget http://downloads.sourceforge.net/jumpcut/Jumpcut_0.63.tgz
+wget http://xee.googlecode.com/files/Xee2.2.zip
+wget http://theunarchiver.googlecode.com/files/TheUnarchiver3.6.1.zip
+wget http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-8.0.0.dmg
+# wget http://darcs.net/binaries/macosx/darcs-2.5-OSX-10.6-i386.tar.gz
+# open http://www.libreoffice.org/download/?type=mac-x86
 # owl install grabc ppsei darcs-bin
 # owl install ttf-anonymous-pro ttf-dejavu ttf-droid ttf-envy-code-r ttf-freefont ttf-junicode ttf-liberation ttf-linux-libertine ttf-ms-fonts
 
